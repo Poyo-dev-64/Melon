@@ -3,7 +3,7 @@ import argparse
 def cmdparse():
 
     parser = argparse.ArgumentParser(prog="melon")
-    sub = parser.add_subparser(dest='cmd')
+    sub = parser.add_subparsers(dest='cmd')
 
     p = sub.add_parser("plant")
     p.add_argument("package", nargs="+")
