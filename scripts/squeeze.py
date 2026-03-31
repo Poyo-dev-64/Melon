@@ -1,4 +1,4 @@
 # place holder
 
-def squeeze():
-    print("[melon] squeezing...")
+def squeeze(pkg_name):
+    print(f"[melon] squeezing {pkg_name}...")
