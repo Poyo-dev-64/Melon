@@ -3,7 +3,7 @@ from scripts.plant import plant
 from scripts.squeeze import squeeze
 from scripts.hydrate import hydrate
 from scripts.sniff import sniff
-from scripts.preserve-thaw import thaw, preserve
+from scripts.preservethaw import thaw, preserve
 from scripts.rind import rind
 from scripts.ripen import ripen
 from scripts.nutrition import nutrition
